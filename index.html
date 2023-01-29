@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/adaptive.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tzeezotje</title>
+</head>
+<body>
+<div class="burger-menu" id="burger-menu">
+    <span class="closed" id="closed-burger">&times;</span>
+    <nav>
+        <ul>
+            <li>
+                <a href="#">À la carte</a>
+            </li>
+            <li>
+                <a href="#">Wijnkaart</a>
+            </li>
+            <li>
+                <a href="#">Lunchmenu</a>
+            </li>
+            <li>
+                <a href="#">Contact</a>
+            </li>
+        </ul>
+    </nav>
+</div>
+<div class="header-div">
+    <div class="container">
+        <header class="header">
+            <div class="logo">
+                <img src="image/logo.png" alt="logo">
+            </div>
+            <nav class="header-menu">
+                <ul>
+                    <li>
+                        <a href="#">À la carte</a>
+                    </li>
+                    <li>
+                        <a href="#">Wijnkaart</a>
+                    </li>
+                    <li>
+                        <a href="#">Lunchmenu</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="burger" id="burger">
+                <svg id="Layer_1" enable-background="new 0 0 512 512" height="512" viewBox="0 0 512 512" width="512"
+                     xmlns="http://www.w3.org/2000/svg">
+                    <path d="m464.883 64.267h-417.766c-25.98 0-47.117 21.136-47.117 47.149 0 25.98 21.137 47.117 47.117 47.117h417.766c25.98 0 47.117-21.137 47.117-47.117 0-26.013-21.137-47.149-47.117-47.149z"/>
+                    <path d="m464.883 208.867h-417.766c-25.98 0-47.117 21.136-47.117 47.149 0 25.98 21.137 47.117 47.117 47.117h417.766c25.98 0 47.117-21.137 47.117-47.117 0-26.013-21.137-47.149-47.117-47.149z"/>
+                    <path d="m464.883 353.467h-417.766c-25.98 0-47.117 21.137-47.117 47.149 0 25.98 21.137 47.117 47.117 47.117h417.766c25.98 0 47.117-21.137 47.117-47.117 0-26.012-21.137-47.149-47.117-47.149z"/>
+                </svg>
+            </div>
+            <div class="header-contacts">
+                <div class="header-contacts-svg">
+                    <a href="tel:+3292825725">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M21.97 18.33C21.97 18.69 21.89 19.06 21.72 19.42C21.55 19.78 21.33 20.12 21.04 20.44C20.55 20.98 20.01 21.37 19.4 21.62C18.8 21.87 18.15 22 17.45 22C16.43 22 15.34 21.76 14.19 21.27C13.04 20.78 11.89 20.12 10.75 19.29C9.6 18.45 8.51 17.52 7.47 16.49C6.44 15.45 5.51 14.36 4.68 13.22C3.86 12.08 3.2 10.94 2.72 9.81C2.24 8.67 2 7.58 2 6.54C2 5.86 2.12 5.21 2.36 4.61C2.6 4 2.98 3.44 3.51 2.94C4.15 2.31 4.85 2 5.59 2C5.87 2 6.15 2.06 6.4 2.18C6.66 2.3 6.89 2.48 7.07 2.74L9.39 6.01C9.57 6.26 9.7 6.49 9.79 6.71C9.88 6.92 9.93 7.13 9.93 7.32C9.93 7.56 9.86 7.8 9.72 8.03C9.59 8.26 9.4 8.5 9.16 8.74L8.4 9.53C8.29 9.64 8.24 9.77 8.24 9.93C8.24 10.01 8.25 10.08 8.27 10.16C8.3 10.24 8.33 10.3 8.35 10.36C8.53 10.69 8.84 11.12 9.28 11.64C9.73 12.16 10.21 12.69 10.73 13.22C11.27 13.75 11.79 14.24 12.32 14.69C12.84 15.13 13.27 15.43 13.61 15.61C13.66 15.63 13.72 15.66 13.79 15.69C13.87 15.72 13.95 15.73 14.04 15.73C14.21 15.73 14.34 15.67 14.45 15.56L15.21 14.81C15.46 14.56 15.7 14.37 15.93 14.25C16.16 14.11 16.39 14.04 16.64 14.04C16.83 14.04 17.03 14.08 17.25 14.17C17.47 14.26 17.7 14.39 17.95 14.56L21.26 16.91C21.52 17.09 21.7 17.3 21.81 17.55C21.91 17.8 21.97 18.05 21.97 18.33Z"
+                                  stroke="#D3B47F" stroke-width="1.5" stroke-miterlimit="10"/>
+                            <path d="M18.5 9C18.5 8.4 18.03 7.48 17.33 6.73C16.69 6.04 15.84 5.5 15 5.5"
+                                  stroke="#D3B47F"
+                                  stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M22 9C22 5.13 18.87 2 15 2" stroke="#D3B47F" stroke-width="1.5"
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+
+                </div>
+                <a class="header-contacts-phone" href="tel:+3292825725">+32 9 282 57 25</a>
+            </div>
+        </header>
+        <section class="header-title">
+            <div class="header-title-working">
+                OPEN EVERYDAY 6AM - 9PM
+            </div>
+            <h1>A bad day with lunch is better than a good day without it.</h1>
+            <div class="header-title-contacts">
+                <div class="header-title-action">
+                    <button class="btn header-title-action-btn" id="reserved">Reserve a table</button>
+                </div>
+                <div class="popup" id="popup">
+                    <span class="closed" id="closed-popup">&times;</span>
+                    <form action="" method="post" class="popup-form">
+                        <label class="popup-label">
+                            Name
+                            <input type="text" name="Name" placeholder="Your name" class="popup-input">
+                        </label>
+                        <label class="popup-label">Phone
+                            <input type="tel" name="tel" placeholder="Your phone number" class="popup-input">
+                        </label>
+                        <label class="popup-label">
+                            Speciale Request
+                            <textarea placeholder="Input your special request" class="popup-textarea"></textarea>
+                        </label>
+                        <div class="popup-action">
+                            <button class="popup-button">Submit</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="header-title-social">
+                    <div class="header-title-contacts-social-svg">
+                        <a href="#">
+                            <svg width="48" height="48" viewBox="0 0 48 48" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="24" cy="24" r="23.5" stroke="white"/>
+                                <path d="M21.3359 18.832V20.64H16.6799V23.504H20.2479V25.28H16.6799V30H14.4399V18.832H21.3359ZM25.1643 22.432C25.4523 22.0053 25.847 21.6587 26.3483 21.392C26.8603 21.1253 27.4416 20.992 28.0923 20.992C28.8496 20.992 29.5323 21.1787 30.1403 21.552C30.759 21.9253 31.2443 22.4587 31.5963 23.152C31.959 23.8347 32.1403 24.6293 32.1403 25.536C32.1403 26.4427 31.959 27.248 31.5963 27.952C31.2443 28.6453 30.759 29.184 30.1403 29.568C29.5323 29.952 28.8496 30.144 28.0923 30.144C27.431 30.144 26.8496 30.016 26.3483 29.76C25.8576 29.4933 25.463 29.152 25.1643 28.736V30H22.9243V18.16H25.1643V22.432ZM29.8523 25.536C29.8523 25.0027 29.7403 24.544 29.5163 24.16C29.303 23.7653 29.015 23.4667 28.6523 23.264C28.3003 23.0613 27.9163 22.96 27.5003 22.96C27.095 22.96 26.711 23.0667 26.3483 23.28C25.9963 23.4827 25.7083 23.7813 25.4843 24.176C25.271 24.5707 25.1643 25.0347 25.1643 25.568C25.1643 26.1013 25.271 26.5653 25.4843 26.96C25.7083 27.3547 25.9963 27.6587 26.3483 27.872C26.711 28.0747 27.095 28.176 27.5003 28.176C27.9163 28.176 28.3003 28.0693 28.6523 27.856C29.015 27.6427 29.303 27.3387 29.5163 26.944C29.7403 26.5493 29.8523 26.08 29.8523 25.536Z"
+                                      fill="white"/>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="header-title-contacts-social-svg">
+                        <a href="#">
+                            <svg width="48" height="48" viewBox="0 0 48 48" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="24" cy="24" r="23.5" stroke="white"/>
+                                <path d="M18.6956 18.832V30H16.4556V18.832H18.6956ZM24.3807 20.992C25.042 20.992 25.6234 21.1253 26.1247 21.392C26.626 21.648 27.0207 21.984 27.3087 22.4V21.136H29.5647V30.064C29.5647 30.8853 29.3994 31.616 29.0687 32.256C28.738 32.9067 28.242 33.4187 27.5807 33.792C26.9194 34.176 26.1194 34.368 25.1807 34.368C23.922 34.368 22.8874 34.0747 22.0767 33.488C21.2767 32.9013 20.8234 32.1013 20.7167 31.088H22.9407C23.058 31.4933 23.3087 31.8133 23.6927 32.048C24.0874 32.2933 24.562 32.416 25.1167 32.416C25.7674 32.416 26.2954 32.2187 26.7007 31.824C27.106 31.44 27.3087 30.8533 27.3087 30.064V28.688C27.0207 29.104 26.6207 29.4507 26.1087 29.728C25.6074 30.0053 25.0314 30.144 24.3807 30.144C23.634 30.144 22.9514 29.952 22.3327 29.568C21.714 29.184 21.2234 28.6453 20.8607 27.952C20.5087 27.248 20.3327 26.4427 20.3327 25.536C20.3327 24.64 20.5087 23.8453 20.8607 23.152C21.2234 22.4587 21.7087 21.9253 22.3167 21.552C22.9354 21.1787 23.6234 20.992 24.3807 20.992ZM27.3087 25.568C27.3087 25.024 27.202 24.56 26.9887 24.176C26.7754 23.7813 26.4874 23.4827 26.1247 23.28C25.762 23.0667 25.3727 22.96 24.9567 22.96C24.5407 22.96 24.1567 23.0613 23.8047 23.264C23.4527 23.4667 23.1647 23.7653 22.9407 24.16C22.7274 24.544 22.6207 25.0027 22.6207 25.536C22.6207 26.0693 22.7274 26.5387 22.9407 26.944C23.1647 27.3387 23.4527 27.6427 23.8047 27.856C24.1674 28.0693 24.5514 28.176 24.9567 28.176C25.3727 28.176 25.762 28.0747 26.1247 27.872C26.4874 27.6587 26.7754 27.36 26.9887 26.976C27.202 26.5813 27.3087 26.112 27.3087 25.568Z"
+                                      fill="white"/>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="header-title-contacts-social-svg">
+                        <a href="#">
+                            <svg width="48" height="48" viewBox="0 0 48 48" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="24" cy="24" r="23.5" stroke="white"/>
+                                <path d="M12.6448 20.64H15.6208V30H17.8608V20.64H20.8368V18.832H12.6448V20.64ZM24.0872 30H26.5192L28.1352 23.808L29.7512 30H32.1672L34.7592 21.136H32.6152L31.0472 27.872L29.3832 21.136H27.0152L25.3192 27.888L23.7512 21.136H21.4792L24.0872 30Z"
+                                      fill="white"/>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="header-title-contacts-social-svg">
+                        <a href="#">
+                            <svg width="48" height="48" viewBox="0 0 48 48" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="24" cy="24" r="23.5" stroke="white"/>
+                                <path d="M19.2805 26.112V30H21.5205V26.112L25.2965 18.832H22.8005L20.4165 23.936L18.0165 18.832H15.4885L19.2805 26.112ZM26.9404 27.248C26.9404 29.28 28.0764 30 29.7724 30H31.1804V28.112H30.1404C29.4364 28.112 29.1964 27.856 29.1964 27.264V22.976H31.1804V21.136H29.1964V18.944H26.9404V21.136H25.8844V22.976H26.9404V27.248Z"
+                                      fill="white"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
+<section class="menu">
+    <div class="container">
+        <div class="menu-block">
+            <div class="menu-day">
+                <div class="menu-day-date">Woensdag 12/01</div>
+                <div class="menu-day-dish">
+                    <span class="menu-day-dish1">Salade met Serrano</span>
+                    <div class="menu-day-dish-dots">
+                        <svg width="5" height="5" viewBox="0 0 5 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="2.5" cy="2.5" r="2.5" fill="#D3B47F"/>
+                        </svg>
+                    </div>
+                    <div class="menu-day-dish-dots">
+                        <svg width="5" height="5" viewBox="0 0 5 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="2.5" cy="2.5" r="2.5" fill="#D3B47F"/>
+                        </svg>
+                    </div>
+                    <div class="menu-day-dish-dots">
+                        <svg width="5" height="5" viewBox="0 0 5 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="2.5" cy="2.5" r="2.5" fill="#D3B47F"/>
+                        </svg>
+                    </div>
+                    <span class="menu-day-dish2">Steak Tartaar</span>
+                </div>
+            </div>
+            <div class="menu-day">
+                <div class="menu-day-date">Donderdag 13/01</div>
+                <div class="menu-day-dish">
+                    <span class="menu-day-dish1">Toast Roquefort</span>
+                    <div class="menu-day-dish-dots">
+                        <svg width="5" height="5" viewBox="0 0 5 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="2.5" cy="2.5" r="2.5" fill="#D3B47F"/>
+                        </svg>
+                    </div>
+                    <div class="menu-day-dish-dots">
+                        <svg width="5" height="5" viewBox="0 0 5 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="2.5" cy="2.5" r="2.5" fill="#D3B47F"/>
+                        </svg>
+                    </div>
+                    <div class="menu-day-dish-dots">
+                        <svg width="5" height="5" viewBox="0 0 5 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="2.5" cy="2.5" r="2.5" fill="#D3B47F"/>
+                        </svg>
+                    </div>
+                    <span class="menu-day-dish2">Penne met Kip en Prei</span>
+                </div>
+            </div>
+            <div class="menu-day">
+                <div class="menu-day-date">Vrijdag 14/01</div>
+                <div class="menu-day-dish">
+                    <span class="menu-day-dish1">Verrassing van de Chef</span>
+                    <div class="menu-day-dish-dots">
+                        <svg width="5" height="5" viewBox="0 0 5 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="2.5" cy="2.5" r="2.5" fill="#D3B47F"/>
+                        </svg>
+                    </div>
+                    <div class="menu-day-dish-dots">
+                        <svg width="5" height="5" viewBox="0 0 5 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="2.5" cy="2.5" r="2.5" fill="#D3B47F"/>
+                        </svg>
+                    </div>
+                    <div class="menu-day-dish-dots">
+                        <svg width="5" height="5" viewBox="0 0 5 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="2.5" cy="2.5" r="2.5" fill="#D3B47F"/>
+                        </svg>
+                    </div>
+                    <span class="menu-day-dish2">Penne met Kip en Prei</span>
+                </div>
+            </div>
+            <div class="menu-day">
+                <div class="menu-day-date">Vrijdag 15/01</div>
+                <div class="menu-day-dish">
+                    <span class="menu-day-dish1">Verrassing van de Chef</span>
+                    <div class="menu-day-dish-dots">
+                        <svg width="5" height="5" viewBox="0 0 5 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="2.5" cy="2.5" r="2.5" fill="#D3B47F"/>
+                        </svg>
+                    </div>
+                    <div class="menu-day-dish-dots">
+                        <svg width="5" height="5" viewBox="0 0 5 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="2.5" cy="2.5" r="2.5" fill="#D3B47F"/>
+                        </svg>
+                    </div>
+                    <div class="menu-day-dish-dots">
+                        <svg width="5" height="5" viewBox="0 0 5 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="2.5" cy="2.5" r="2.5" fill="#D3B47F"/>
+                        </svg>
+                    </div>
+                    <span class="menu-day-dish2">Penne met Kip en Prei</span>
+                </div>
+            </div>
+            <div class="menu-day">
+                <div class="menu-day-date">Vrijdag 16/01</div>
+                <div class="menu-day-dish">
+                    <span class="menu-day-dish1">Verrassing van de Chef</span>
+                    <div class="menu-day-dish-dots">
+                        <svg width="5" height="5" viewBox="0 0 5 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="2.5" cy="2.5" r="2.5" fill="#D3B47F"/>
+                        </svg>
+                    </div>
+                    <div class="menu-day-dish-dots">
+                        <svg width="5" height="5" viewBox="0 0 5 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="2.5" cy="2.5" r="2.5" fill="#D3B47F"/>
+                        </svg>
+                    </div>
+                    <div class="menu-day-dish-dots">
+                        <svg width="5" height="5" viewBox="0 0 5 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="2.5" cy="2.5" r="2.5" fill="#D3B47F"/>
+                        </svg>
+                    </div>
+                    <span class="menu-day-dish2">Penne met Kip en Prei</span>
+                </div>
+            </div>
+        </div>
+        <div class="menu-images">
+            <div class="menu-image">
+                <img src="image/menu-1.png" alt="img">
+            </div>
+            <div class="menu-image">
+                <img src="image/menu-2.png" alt="img">
+            </div>
+        </div>
+    </div>
+</section>
+<section class="reviews">
+    <div class="swiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="review-block">
+                    <h2>Goede service, lekker eten, toffe ambiance</h2>
+                    <div class="reviews-text">
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+                        invidunt&nbsp;ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+                        accusam et justo duo dolores et ea rebum.
+                        Stet clita kasd gubergren.
+                    </div>
+                    <div class="reviews-user">
+                        ALAIN HEYNDRICKX
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="review-block">
+                    <h2>Goede service</h2>
+                    <div class="reviews-text">
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+                        invidunt&nbsp;ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+                        accusam et justo duo dolores et ea rebum.
+                        Stet clita kasd gubergren.
+                    </div>
+                    <div class="reviews-user">
+                        ALAIN HEYNDRICKX
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="review-block">
+                    <h2>Goede service, lekker eten</h2>
+                    <div class="reviews-text">
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+                        invidunt&nbsp;ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+                        accusam et justo duo dolores et ea rebum.
+                        Stet clita kasd gubergren.
+                    </div>
+                    <div class="reviews-user">
+                        ALAIN HEYNDRICKX
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-button-prev my-swiper-arrow"></div>
+        <div class="swiper-button-next my-swiper-arrow"></div>
+    </div>
+</section>
+
+
+<script>
+    let popup = document.getElementById('popup')
+    let popupAction = document.getElementById('reserved')
+    let closePopup = document.getElementById('closed-popup')
+    let closeBurgerMenu = document.getElementById('closed-burger')
+    let burgerMenu = document.getElementById('burger-menu')
+    let burgerMenuAction = document.getElementById('burger')
+
+    popupAction.onclick = function () {
+        popup.style.display = 'block';
+    };
+
+    burgerMenuAction.onclick = function () {
+        burgerMenu.style.display = 'block'
+    };
+
+    closePopup.onclick = function () {
+        popup.style.display = 'none';
+    };
+
+    closeBurgerMenu.onclick = function () {
+        burgerMenu.style.display = 'none';
+    };
+
+
+    window.onclick = function (e) {
+        if (e.target == popup) {
+            popup.style.display = "none";
+        }
+        if (e.target == burgerMenu) {
+            burgerMenu.style.display = "none";
+        }
+    }
+</script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script src="script/script.js"></script>
+</body>
+</html>
